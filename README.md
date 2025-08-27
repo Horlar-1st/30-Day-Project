@@ -31,7 +31,7 @@ The following technologies are used in this repository:
 ## How to Use
 To use this repository, follow these steps:
 
-1. Clone the repository: `git clone https:                                                 
+1. Clone the repository.                                               
 2. View the `projects.pdf` file for project details and descriptions.
 3. Explore the code files for each project to see the solutions.
 
