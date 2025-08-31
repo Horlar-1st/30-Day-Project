@@ -22,7 +22,9 @@ class NumberAnalyzer:
             if num%i == 0:
                 return "not prime"
         return "prime"
-    
+
+## End of code
+
 ## Initializing
 myNumberAnalyzer = NumberAnalyzer()
 
@@ -30,4 +32,5 @@ myNumberAnalyzer = NumberAnalyzer()
 num_list = [34, -0.4, 6, 8, -9, -12, 0, 4, 3.5]
 for i in num_list:
     result = f"{i} is {myNumberAnalyzer.iseven(i)}, {myNumberAnalyzer.ispositive(i)}, and {myNumberAnalyzer.isprime(i)}"
+
     print(result)
