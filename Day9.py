@@ -3,8 +3,13 @@
 # By slicing
 print("Reverse string by slicing")
 inpt = input("Enter your text: ")
+#print result of slicing method
 print(f"The reverse statement by slicing is {inpt[::-1]}")
+
+
 print("*-"*40)
+
+
 # By loop
 print("Reverse string by slicing")
 # The result to add to
@@ -14,4 +19,8 @@ n = len(inpt)
 # The loop
 for i in range(1, n+1):
     result += inpt[n-i]
+    
+# print result of loop approach
 print(f"The reverse statement by loop is {result}")
+
+#end of program
