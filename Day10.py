@@ -20,4 +20,8 @@ ichecker = gr.Interface(
 )
 
 #  Launch the interface
+
 ichecker.launch()                   # To create a public link, set `share=True` in `launch()`. 
+
+
+# End of program
