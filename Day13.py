@@ -42,3 +42,5 @@ idash_replacer = gr.Interface(
 
 #  Launch the interface
 idash_replacer.launch()                   # set share=True if you want to share the app publicly
+
+# End of program
