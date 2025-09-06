@@ -2,6 +2,30 @@
 
 # function to exhibit the checker
 def isPalindrome(text):
+    '''
+    Check if a word or phrase is a palindrome (ignore spaces and casing).
+
+    This function check if a word or phrase is a palindrome (ignore spaces and casing).
+
+    Parameters
+    ----------
+    text : str
+        A string containing words.
+
+    Returns
+    -------
+    Bool
+        True/False.
+        True if the text is a palindrome
+
+    Examples
+    --------
+    >>> isPalindrome("level")
+    True
+
+    >>> capitalizer(" economy class flight ")
+    3
+    '''
     text = text.strip()             # strip the white spaces
     text = text.lower()             # change to lower cases
     return text == text[::-1]
@@ -25,3 +49,4 @@ ichecker.launch()                   # To create a public link, set `share=True` 
 
 
 # End of program
+
