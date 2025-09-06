@@ -23,8 +23,8 @@ def isPalindrome(text):
     >>> isPalindrome("level")
     True
 
-    >>> capitalizer(" economy class flight ")
-    3
+    >>> isPalindrome(" tongue ")
+    False
     '''
     text = text.strip()             # strip the white spaces
     text = text.lower()             # change to lower cases
@@ -49,4 +49,5 @@ ichecker.launch()                   # To create a public link, set `share=True` 
 
 
 # End of program
+
 
