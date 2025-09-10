@@ -34,3 +34,6 @@ for i in num_list:
     result = f"{i} is {myNumberAnalyzer.iseven(i)}, {myNumberAnalyzer.ispositive(i)}, and {myNumberAnalyzer.isprime(i)}"
 
     print(result)
+
+#End of program 
+
