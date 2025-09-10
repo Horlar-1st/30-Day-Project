@@ -47,5 +47,7 @@ isPrime_interface = gr.Interface(
 )
 
 #  Launch the interface
-isPrime_interface.launch()
+isPrime_interface.launch()                # set share=True if you want to share the app publicly
+
+# End of code
 
