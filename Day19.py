@@ -48,15 +48,18 @@ class To_do_list:
 
 # Gradio for interface presentation
 
+# initialization
 Todo = To_do_list()
+
+# interface
 iTodo = gr.Interface(
     fn = Todo.handle_dropdown_change,
     inputs= [gr.Textbox(label="Input", placeholder="Enter your sentence"),
              gr.Dropdown(label="Select option:", choices=Todo.options)],
     outputs = gr.Textbox(label="Result"),
-    title = "Word Counter",
-    description= "Count the number of words in a full sentence."
+    title = "To-do List",
+    description= "A mini app to add, remove or show tasks to a To-do List."
 )
 
 #  Launch the interface
-iTodo.launch()                          # To create a public link, set `share=True` in `launch()` 
+iTodo.launch()                            # To create a public link, set `share=True` in `launch()` 
