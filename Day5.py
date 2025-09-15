@@ -1,3 +1,5 @@
+# Number Guessing Game: Random number 1–50. User guesses with hints (too high/low). Count attempts.
+
 # Import library 
 import random
 
@@ -31,3 +33,4 @@ else:
 
 
 # End of program
+
