@@ -8,7 +8,7 @@ result = random.randrange(1,51)
 
 # Action to start play
 play = input("Do you want to play the guessing game: ")
-play = play.lower().strip()[:1]                             # for the first letter "y"
+play = play.lower().strip()[:1]                             # for the first letter "y" for "yes"
 
 
 # the loop
@@ -44,3 +44,7 @@ while play == "y":
 
 # final remark
 print("Thanks for your time with us!")
+
+
+
+# End of code
