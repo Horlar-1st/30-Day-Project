@@ -54,5 +54,10 @@ class Hangman:
 # initilizing
 demo = Hangman()
 
+
 # running
 demo.the_game()
+
+# Answers are either BALL, BOOK, HOUSE, LAKE, SNAKE, OR SUN
+
+# End of code 
