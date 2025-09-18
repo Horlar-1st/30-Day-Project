@@ -8,10 +8,12 @@ class ContactBook:
 
     # Helper method to clean and standardize names
     def clean_name(self, inpt):
+        '''To clean and standardise names'''
         return inpt.strip().capitalize()
 
     # Method to add a contact
     def add_contact(self, name, phone):
+        '''To add name and contact number to contact list'''
         name = self.clean_name(name)
         phone = str(phone).strip()
 
@@ -23,6 +25,7 @@ class ContactBook:
 
     # Method to search for a contact by name or phone number
     def search_contact(self, name="", phone=""):
+        '''To search name or contact number to contact list'''
         name = self.clean_name(name)
         phone = str(phone).strip()
 
@@ -36,6 +39,7 @@ class ContactBook:
 
     # Method to delete a contact by name or phone number
     def delete_contact(self, name="", phone=""):
+        '''To delete name and contact number to contact list'''
         name = self.clean_name(name)
         phone = str(phone).strip()
 
