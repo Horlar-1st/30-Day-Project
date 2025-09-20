@@ -3,9 +3,10 @@
 # import time module
 import time
 
+# function to calculate elapsed time between two key presses
 def start_timer():
     '''
-    Caluclate elapsed time between two key presses.
+    Calculate elapsed time between two key presses.
     returns elapsed time in seconds.
     '''
     input("⏱️ Press Enter to start the timer...")
