@@ -26,7 +26,7 @@ The goals of this repository are:
 The following technologies are used in this repository:
 
 * **Python 3.x**: The programming language used for all projects.
-* **Various libraries and frameworks**: Depending on the project requirements.
+* **Various libraries and frameworks**: Depending on the project requirements. The library used include `gradio`, `time`, `random`, `regex`, `json`, etc
 
 ## How to Use
 To use this repository, follow these steps:
