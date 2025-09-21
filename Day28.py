@@ -36,7 +36,7 @@ def SimpleCalculatorApp(inpt1, inpt2, operation):
     elif operation == "Divide":
         return inpt1 / inpt2
     else:
-        return "Please select an operation"
+        return "Please, select an operation"
 
 
 # import gradio for creating a web interface
@@ -56,3 +56,5 @@ iSimpleCal = gr.Interface(
 
 # to launch
 iSimpleCal.launch()     # To create a public link, set `share=True` in `launch()`.
+
+# End of code
