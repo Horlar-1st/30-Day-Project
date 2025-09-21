@@ -1,4 +1,4 @@
-# 28 Simple Calculator App: Text-based menu calculator (add/subtract/multiply/divide). Use functions.
+# Simple Calculator App: Text-based menu calculator (add/subtract/multiply/divide). Use functions.
 
 def SimpleCalculatorApp(inpt1, inpt2, operation):
     '''
@@ -58,3 +58,4 @@ iSimpleCal = gr.Interface(
 iSimpleCal.launch()     # To create a public link, set `share=True` in `launch()`.
 
 # End of code
+
