@@ -48,11 +48,13 @@ def PasswordGenerator(length = 15):
 with gr.Blocks() as demo:
     gr.Markdown("## Password Generator")
     with gr.Row():
-        length = gr.Number(label="Length of Password", value=12, precision=0)
+        length = gr.Number(label="Length of Password", value=15, precision=0)
     password = gr.Textbox(label="Generated Password")
-    generate_btn = gr.Button("Generate Password")
+    generate_btn = gr.Button("🔑 Generate Password")
     generate_btn.click(PasswordGenerator, inputs=[length], outputs=[password])
+
 
 # Launch
 demo.launch()        # To create a public link, set `share=True` in `launch()`.
+
 
