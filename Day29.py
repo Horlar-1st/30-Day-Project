@@ -53,4 +53,6 @@ with gr.Blocks() as demo:
     generate_btn = gr.Button("Generate Password")
     generate_btn.click(PasswordGenerator, inputs=[length], outputs=[password])
 
-demo.launch()
+# Launch
+demo.launch()        # To create a public link, set `share=True` in `launch()`.
+
