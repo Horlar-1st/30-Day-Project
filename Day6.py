@@ -18,6 +18,9 @@ class DigitSumChecker:
         return "not divisble by 3"
         
     def divisble_by9(self, num):
+        """  
+        A function that checks if a number is divisible by 5
+        """
         try: num = int(num)
         except: return "invalid input"
         sum_ = sum(int(val) for val in str(num))
@@ -50,3 +53,4 @@ if __name__ == "__main__":
     # Launch the Gradio interface
 
     demo.launch() # share=True to share the link
+
