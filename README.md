@@ -45,4 +45,4 @@ Contributions are welcome! If you have any suggestions or improvements for the p
 
 ## 🙌 Credits
 
-Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as a project work to improve my Python skills and build consistency in practice.
+Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as a daily project work to improve my Python skills and build consistency in practice.
