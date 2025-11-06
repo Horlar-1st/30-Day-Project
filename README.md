@@ -36,7 +36,9 @@ To use this repository, follow these steps:
 3. Explore the code files for each project to see the solutions.
 
 ## Contributions
-Contributions are welcome! If you have any suggestions or improvements for the projects or code, feel free to:
+Contributions are welcome! 
+
+If you have any suggestions or improvements for the projects or code, feel free to:
 
 * Open an issue to discuss the idea
 * Submit a pull request with the changes
