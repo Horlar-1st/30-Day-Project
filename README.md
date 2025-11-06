@@ -1,4 +1,4 @@
-# 30 Days of Python
+## 📈🎯 30 Days of Python
 
 A repository showcasing 30 days of Python projects to build discipline, accountability, and Python coding skills through one structured problem per day, each day with a new challenge and difficulty progresses weekly. The project details can be found in the `projects.pdf` file.
 
